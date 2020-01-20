@@ -1,0 +1,24 @@
+{
+   "equipos":[ 
+      {
+         "nombre": "Emelec",
+         "provincia": "Guayas"
+      },
+      {
+         "nombre": "Liga de Quito",
+         "provincia": "Pichincha"
+      },
+      {
+         "nombre": "Fuerza Amarilla",
+         "provincia": "El Oro"
+      },
+      {
+         "nombre": "Mushuc Runa",
+         "provincia": "Tungurahua"
+      },
+      {
+         "nombre": "Delfín",
+         "provincia": "Pichincha"
+      }
+   ]
+}
