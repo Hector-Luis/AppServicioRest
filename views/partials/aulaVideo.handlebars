@@ -1,0 +1,38 @@
+ {{#section 'head'}}
+
+
+ <link rel="stylesheet" href="css/cssNavegador.css"> 
+
+<link rel="stylesheet" href="css/bienvenidos.css" />
+ 
+	<script type="text/javascript"  src="js/bootstrap.min.js"></script>
+	<script type="text/javascript"  src="js/bibliotecaVideos.js"></script>
+{{/section}}
+
+
+ <div class = "oculta" >
+<h1> id : {{video.id}}</h1>
+<p id="url">{{video.url_video}}</p>
+</div>
+
+
+<audio src="recursos/audios/instrucciones.mp3" controls autoplay="true"></audio>
+<div id="video" class="">
+
+<script>
+	
+	var urlVideo = document.getElementById("url").innerHTML;
+	var patron = "https://www.youtube.com/watch?v=";
+    var nuevoValor = "https://www.youtube.com/embed/";
+    urlVideo = urlVideo.replace(patron, nuevoValor);
+    //alert(urlVideo);
+
+    var cadena = "<iframe src='" + urlVideo + "' frameborder='0' allowfullscreen ></iframe>";
+    document.getElementById("video").innerHTML=cadena;
+</script>
+</div>
+
+
+<div id="preguntas"> <center><a href='/preguntas/{{video.id}}' id='{{video.id}}' class="flotante"><img src="recursos/imagenes/boton.png"></a></center></div>
+
+

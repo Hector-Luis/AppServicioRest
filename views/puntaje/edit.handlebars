@@ -1,0 +1,39 @@
+{{#section 'head'}}
+
+      <link rel="stylesheet" href="css/cssNavegador.css"> 
+      
+      <link rel="stylesheet" href="css/w3.css">
+      <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+      <script type="text/javascript"  src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/jquery.validate.min.js"></script> 
+{{/section}}
+
+<a href="/puntaje">Regresar a la lista de Puntaje</a>
+
+<h3>FORMULARIO EDITAR</h3>
+
+<!-- NOTA: utilice helper para simplificar el código de esta sección 
+agregar method-override 
+-->
+
+ <div class="container">
+<form class="form" action="/puntaje/{{video.id}}?_method=PUT" method="post">
+  <div class="form-group">
+    <label for="title"></label>
+
+    <label for="name">Video id: </label>
+    <input type="text" class="form-control" id="video_id" name="video_id"  value="{{puntaje.video_id}}"> 
+     <br/>
+
+    <label for="name">Usuario id: </label>
+    <input type="text" class="form-control" id="usuario_id" name="usuario_id"  value="{{puntaje.usuario_id}}">
+      <br/>
+
+
+      <label for="name"> Valor: </label>
+     <input type="text" class="form-control" id="valor" name="valor"  value="{{puntaje.valor}}">
+      <br/>
+  </div>
+  <button type="submit" class="btn btn-info">ACEPTAR</button>
+</form>
+ </div>

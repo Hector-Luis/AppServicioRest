@@ -1,0 +1,39 @@
+
+{{#section 'head'}}
+<link rel="stylesheet" href="css/cssNavegador.css"> 
+      
+      <link rel="stylesheet" href="css/w3.css">
+	<script type="text/javascript"  src="js/bootstrap.min.js"></script>
+{{/section}}
+
+
+<!-- NOTA: utilice helper para simplificar el código de esta sección -->
+
+
+<h3><a href="/pregunta">Pregunta</a></h3>
+ <div class="container">
+<form class="form" action="/video" method="post">
+  <div class="form-group">
+    <label for="title"></label>
+
+    <input type="text" class="form-control" id="video_id" name="video_id" placeholder="Ingresa el id el video"> 
+    </br>
+    <input type="text" class="form-control" id="contenido" name="contenido" placeholder="Ingresa el contenido">  
+    </br>
+
+    <input type="text" class="form-control" id="url_audio" name="url_audio" placeholder="Ingresa el url del audio">  
+    </br>
+  </div>
+
+  <div class="container"> 
+    <button type="submit" class="btn btn-info">ACEPTAR</button>
+
+        <a type = "button" class="btn btn-info" href= "opcion/new"> 
+        AGREGAR OPCIONES
+           
+         </a>
+        </div>
+
+
+</form>
+  </div>

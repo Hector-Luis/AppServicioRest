@@ -1,0 +1,43 @@
+{{#section 'head'}}
+  
+    <link rel="stylesheet" href="css/cssNavegador.css"> 
+    <link rel="stylesheet" href="css/w3.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript"  src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script> 
+{{/section}}
+
+  <div>
+<h1> NADIR BD: TABLA {{title}} </h1>
+</br>
+<a href="/administradorVideos">Regresar a la Admintraci&oacute;n</a>
+</div>
+</br>
+ <div class="container"> 
+<a href="/user/new" type="button" class="btn btn-info" >NUEVO</a>
+  <a type = "button" class="btn btn-info" href= "tipo_usuario/new"> 
+        AGREGAR TIPO DE USUARIO
+           
+         </a>
+
+</div>
+</br>
+
+<div  style:"margin-left: 50px" >
+<h3> LISTA DE USUARIOS</h3>
+</div>
+</br>
+{{#each objUsuarios}}
+  
+  <div class="row">
+    <div class="col-4 col-sm-1"><a href='/user/{{id}}'>{{nombre}}</a></div>
+    <div class="col-4 col-sm-1"><a type="button" class="btn btn-info" href='/user/{{id}}/edit'>EDITAR</a></div>
+    <div class="col-4 col-sm-1">
+      <form action='/user/{{id}}?_method=DELETE' method='post'>
+        <button type="submit" class="btn btn-info">BORRAR</button>            
+      </form>
+    </div>
+   
+  </div>
+{{/each}}
+  

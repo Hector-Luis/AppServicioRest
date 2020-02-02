@@ -1,0 +1,27 @@
+
+{{#section 'head'}}
+   <link rel="stylesheet" href="css/cssNavegador.css"> 
+    <link rel="stylesheet" href="css/w3.css">
+	 <script type="text/javascript"  src="js/bootstrap.min.js"></script>
+{{/section}}
+
+
+<!-- NOTA: utilice helper para simplificar el código de esta sección -->
+
+
+<h3><a href="/opcion">Opci&oacute;n</a></h3>
+ <div class="container">
+<form class="form" action="/video" method="post">
+  <div class="form-group">
+    <label for="title"></label>
+    <input type="text" class="form-control" id="pregunta_id" name="pregunta_id" placeholder="Ingresa el id pregunta">  
+ </br>
+    <input type="text" class="form-control" id="url_imagen" name="url_imagen" placeholder="Ingresa el url imagen">   
+ </br>
+    <input type="text" class="form-control" id="valida" name="valida" placeholder="Ingrese 1 si es valido y 0 si no es valido">  
+ </br>
+
+  </div>
+  <button type="submit" class="btn btn-info">ACEPTAR</button>
+</form>
+  </div>
