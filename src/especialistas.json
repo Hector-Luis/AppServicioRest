@@ -7,8 +7,20 @@
     },
     {
         "id": "2",
-        "NOMBRE": "GABRIELA REQUENA",
+        "nombre": "GABRIELA REQUENA",
         "especialidad": "DISEÑADORA",
-        "edad": "31 años"
+        "edad": "29 años"
+    },
+    {
+        "id": "3",
+        "nombre": "YOMAIRA GÓMEZ",
+        "especialidad": "FONOAUDIÓLOGA CLÍNICA",
+        "edad": "33 años"
+    },
+    {
+        "id": "4",
+        "nombre": "VERÓNICA VARGAS",
+        "especialidad": "PEDAGOGA TERAPÉUTA",
+        "edad": "35 años"
     }
 ]
