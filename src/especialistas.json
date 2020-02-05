@@ -2,25 +2,25 @@
     {
         "id": "1",
         "nombre": "HÉCTOR CHIMBO",
-        "especialidad": "PROGRAMADOR",
+        "especialidad": "PROGRAMADOR - 0979124745",
         "edad": "30 años"
     },
     {
         "id": "2",
         "nombre": "GABRIELA REQUENA",
-        "especialidad": "DISEÑADORA",
+        "especialidad": "DISEÑADORA - 0987850170",
         "edad": "29 años"
     },
     {
         "id": "3",
         "nombre": "YOMAIRA GÓMEZ",
-        "especialidad": "FONOAUDIÓLOGA CLÍNICA",
+        "especialidad": "FONOAUDIÓLOGA CLÍNICA - 0983924580",
         "edad": "33 años"
     },
     {
         "id": "4",
         "nombre": "VERÓNICA VARGAS",
-        "especialidad": "PEDAGOGA TERAPÉUTA",
+        "especialidad": "PEDAGOGA TERAPÉUTA - 0997506755",
         "edad": "35 años"
     }
 ]
